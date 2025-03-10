@@ -29,7 +29,7 @@ This repository provides a bi-parametric MRI classification pipeline for prostat
 
 ## Overview
 
-This project aims to classify prostate MRI scans (e.g., distinguishing between cancerous vs. non-cancerous, or any binary pathology) using bi-parametric 3D data. Each patient’s scan consists of three imaging sequences (T2w, DWI, ADC) plus optional clinical variables. The pipeline extracts deep features from each sequence with a 3D VGG-based encoder, and then a custom multi-head cross-attention mechanism outputs new attended feature vectors which along with clinical data pass to the classification head..
+This project aims to classify prostate MRI scans (e.g., distinguishing between cancerous vs. non-cancerous, or any binary pathology) using bi-parametric 3D data. Each patient’s scan consists of three imaging sequences (T2w, DWI, ADC) plus optional clinical variables. The pipeline extracts deep features from each sequence with a 3D VGG-based encoder, and then a custom multi-head cross-attention mechanism outputs new attended feature vectors which along with clinical data pass to the classification head.
 
 ---
 
@@ -58,8 +58,8 @@ This project aims to classify prostate MRI scans (e.g., distinguishing between c
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/<VinDimitriadis>/<PCa-classification>.git
-   cd <PCa-classification>
+   git clone https://github.com/VinDimitriadis/PCa-classification.git
+   cd PCa-classification
 
 2. install necessary packages
 
