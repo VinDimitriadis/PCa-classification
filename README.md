@@ -51,8 +51,8 @@ This project aims to classify prostate MRI scans (e.g., distinguishing between c
 
 ## Diagrams
 
-- **[Architecture and Cross-Attention Overview](./architecture_cross_attention.pdf)** – Shows the entire pipeline on the left and the cross-attention module on the right.  
-- **[Detailed Cross-Attention Flow](./self_cross_attention.pdf)** – Provides a closer look at the multi-head cross-attention mechanism.  
+- **[Architecture and Cross-Attention Overview](docs/architecture_cross_attention.pdf)** – Shows the entire pipeline on the left and the cross-attention module on the right.  
+- **[Detailed Cross-Attention Flow](docs/self_cross_attention.pdf)** – Provides a closer look at the multi-head cross-attention mechanism.  
 
 ## Installation
 
