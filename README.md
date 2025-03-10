@@ -57,17 +57,17 @@ This project aims to classify prostate MRI scans (e.g., distinguishing between c
 ### 2. Detailed Cross-Attention Flow
 ![Detailed Cross-Attention](docs/self_cross_attention.png) – Provides a closer look at the multi-head cross-attention mechanism
 
-## Installation
+## Environment Setup (Anaconda) & Installation 
 
 1. **Clone this repository**:
    ```bash
    git clone https://github.com/VinDimitriadis/PCa-classification.git
    cd PCa-classification
 
-2. install necessary packages
-
+2. Set up environment & install necessary packages
+conda create --name prostate_cancer python=3.9
+conda activate prostate_cancer
 pip install -r requirements.txt
-
 
 
 ## Usage
