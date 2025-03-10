@@ -17,6 +17,7 @@ This repository provides a bi-parametric MRI classification pipeline for prostat
 
 - [Overview](#overview)
 - [Repository Structure](#repository-structure)
+- [Diagrams](#diagrams)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Key Features](#key-features)
@@ -47,6 +48,11 @@ This project aims to classify prostate MRI scans (e.g., distinguishing between c
   Set up model creation, training loops, logging of metrics, saving best models, and generating plots of loss/AUC/F1 precision/recall/specificity.
 
 ---
+
+## Diagrams
+
+- **[Architecture and Cross-Attention Overview](./architecture_cross_attention.pdf)** – Shows the entire pipeline on the left and the cross-attention module on the right.  
+- **[Detailed Cross-Attention Flow](./self_cross_attention.pdf)** – Provides a closer look at the multi-head cross-attention mechanism.  
 
 ## Installation
 
