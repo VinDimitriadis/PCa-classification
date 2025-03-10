@@ -58,8 +58,8 @@ This project aims to classify prostate MRI scans (e.g., distinguishing between c
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/<YourUsername>/<YourRepositoryName>.git
-   cd <YourRepositoryName>
+   git clone https://github.com/<VinDimitriadis>/<PCa-classification>.git
+   cd <PCa-classification>
 
 2. install necessary packages
 
